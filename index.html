@@ -533,6 +533,9 @@
 
       footer { padding: 34px 0 44px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .9rem; }
       footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 26px; justify-content: space-between; }
+      .anti-fraud { margin: 14px 0 0; width: 100%; font-size: .88rem; line-height: 1.6; }
+      .anti-fraud b { color: var(--danger); }
+      .anti-fraud .mono { color: var(--ink); font-weight: 700; }
 
       @media (max-width: 860px) {
         .hero-inner { grid-template-columns: 1fr; padding: 40px 0 48px; gap: 28px; }
@@ -593,41 +596,34 @@
     <div class="modal-overlay" id="whyModal">
       <div class="modal" role="dialog" aria-modal="true" aria-labelledby="whyModalTitle">
         <div class="modal-head">
-          <h2 id="whyModalTitle">贵，有贵的道理</h2>
+          <h2 id="whyModalTitle">不拼便宜，拼的是充得上、掉不了、找得到人</h2>
           <button class="modal-close-x" type="button" id="whyCloseX" aria-label="关闭弹窗">×</button>
         </div>
-        <p class="modal-lede">网上二三十块的也有，但那是几个人挤一个号的合租价，跟这里不是一回事。贵出来的每一分，都花在下面这四件事上。</p>
+        <p class="modal-lede">便宜的代充不少，但便宜不等于划算。下面这三点，才是这里真正卖的东西。</p>
         <div class="why-grid">
           <article class="why-card">
             <div class="why-top">
               <span class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-strong)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg></span>
-              <h3>兑换码直发，不用交账号</h3>
+              <h3>充得上</h3>
             </div>
-            <p>不用给账号、不用给邮箱、<b>更不用给密码</b>。付款后兑换码直接发你，自己在账号里兑换开通，账号安全全在自己手里，不用把号交给陌生人。</p>
-          </article>
-          <article class="why-card">
-            <div class="why-top">
-              <span class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-strong)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>
-              <h3>充到自己的号，不是合租</h3>
-            </div>
-            <p>一人一号，<b>独享</b>。不跟陌生人共用一个号，聊天记录别人看不到，也不会哪天突然被踢下线、被改密码、被连累封号——号是你的，用着才踏实。</p>
+            <p>不玩地区差价，码是<b>按官方价的礼品卡</b>，不挑账号，充上就是正常订阅。低价区卡冲账号地区不对，可能充不上。</p>
           </article>
           <article class="why-card">
             <div class="why-top">
               <span class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-strong)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
-              <h3>正规渠道，不掉订阅</h3>
+              <h3>掉不了</h3>
             </div>
-            <p>按官方价实付开通，<b>不走黑卡、不走盗刷</b>。便宜号最怕的就是用着用着订阅被官方撤销——这边开通的经得起查，一个月稳稳当当用满。</p>
+            <p><b>正规渠道</b>，不合租、不共享，充到你自己的账号里稳稳用满。<b>不到账全额退</b>，不扯皮。</p>
           </article>
           <article class="why-card">
             <div class="why-top">
               <span class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-strong)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M21 14h-3a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2z"/><path d="M3 14v-3a9 9 0 0 1 18 0v3"/></svg></span>
-              <h3>售后有保障</h3>
+              <h3>找得到人</h3>
             </div>
-            <p><b>不到账全额退</b>，不扯皮。兑换遇到问题随时找客服，一步步带你弄好；会员期内有问题也管到底，不是付完钱就找不到人。</p>
+            <p><b>真人客服</b>亲自核对、亲自发码，不是机器自动发完就不管。兑换遇到问题，一步步带你弄好。</p>
           </article>
         </div>
-        <div class="why-note">一句话：<b>便宜的卖的是「挤一挤」，这里卖的是「你自己的号，安安稳稳用一个月」。</b>图便宜买合租，省下的钱最后都花在提心吊胆和重新买号上。</div>
+        <div class="why-note">一句话：<b>不拼便宜，拼的是充得上、掉不了、找得到人。</b></div>
         <button class="modal-close-btn" type="button" id="whyCloseBtn">知道了，去看套餐</button>
       </div>
     </div>
@@ -948,6 +944,7 @@
       <div class="wrap">
         <span>AI 会员代充 · 兑换码直发 · 无需账号密码</span>
         <span>不到账全额退 · 长期售后</span>
+        <p class="anti-fraud"><b>防骗提示：</b>认准官网 <span class="mono">daifa.surge.sh</span> 和 <span class="mono">li2042.github.io/daifa/</span>，其他链接都不是我们，小心假冒。</p>
       </div>
     </footer>
 
